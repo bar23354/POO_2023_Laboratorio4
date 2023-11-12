@@ -17,4 +17,17 @@ public class BaseUser extends User {
     public void register() {
 
     }
+
+    //Rojo grrrr >;(
+    @Override
+    public void borrow(ResourcesLibrary resource, int days, String deliveryBranch) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'borrow'");
+    }
+
+    @Override
+    public void printLoanList() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'printLoanList'");
+    }
 }

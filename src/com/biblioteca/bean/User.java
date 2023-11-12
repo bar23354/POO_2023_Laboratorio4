@@ -50,6 +50,10 @@ public abstract class User {
         this.loan = loan;
     }
 
+    public abstract void borrow(ResourcesLibrary resource, int days, String deliveryBranch);
+
+    public abstract void printLoanList();
+
     public abstract void login();
 
     public abstract void register();

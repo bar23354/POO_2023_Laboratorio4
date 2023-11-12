@@ -1,19 +1,21 @@
 package com.biblioteca.bean;
 
+import java.util.Date;
+
 public class ResourcesLibrary {
 
     private String name;
     private String ISBN;
-
     private String type;
-
     private double price;
+    private Date dueDate;  // Fecha de devolución
 
     public ResourcesLibrary(String name, String ISBN, String type, double price) {
         this.name = name;
         this.ISBN = ISBN;
         this.type = type;
         this.price = price;
+        this.dueDate = null;  // Inicialmente no hay fecha de devolución
     }
 
     public String getName() {
@@ -46,5 +48,13 @@ public class ResourcesLibrary {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Date getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(Date dueDate) {
+        this.dueDate = dueDate;
     }
 }

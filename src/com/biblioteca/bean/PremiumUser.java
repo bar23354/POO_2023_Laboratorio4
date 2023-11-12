@@ -17,4 +17,17 @@ public class PremiumUser extends User {
     public void register() {
 
     }
+
+    //Porque me estaba dando rojo >;(
+    @Override
+    public void borrow(ResourcesLibrary resource, int days, String deliveryBranch) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'borrow'");
+    }
+
+    @Override
+    public void printLoanList() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'printLoanList'");
+    }
 }
