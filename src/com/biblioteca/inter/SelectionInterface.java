@@ -1,3 +1,7 @@
+/*
+ * Interfaz compartida. Contiene los metodos que se comparten entre las clases
+ */
+
 package com.biblioteca.inter;
 
 import com.biblioteca.bean.User;
